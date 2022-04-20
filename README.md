@@ -1,4 +1,4 @@
-#Identifying Cracks on Concrete with Image Classification using Convolutional Neural Network
+# Identifying Cracks on Concrete with Image Classification using Convolutional Neural Network
 
 ## 1. Summary
 The dataset contains concrete images having cracks. The data is collected from various METU Campus Buildings.
