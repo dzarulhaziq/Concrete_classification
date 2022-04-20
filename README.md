@@ -27,10 +27,10 @@ The documentation on the official TensorFlow website served as a model for this 
 The image data is loaded, along with the labels associated. The data is first divided into a train-validation set with a 70:30 ratio. The validation data is then split into two portions, using an 80:20 ratio, to obtain some test data. The overall split ratio for train-validation-test is 70:24:6. Because the data amount and variance are already sufficient, no data augmentation is used.
 
 ### 3.2 Model Pipeline
--The input layer is set up to accept coloured images with a size of 160x160 pixels. The final form will be (160,160,3).
--The deep learning model for this project is built via transfer learning. To begin, a preprocessing layer is established, which modifies the pixel values of incoming images to a range of -1 to 1. This layer acts as a feature scaler and is necessary for the transfer learning model to produce the correct signals.
--A MobileNet v2 pretrained model is employed for the feature extractor. The model is included in the TensorFlow Keras package and is pre-trained with ImageNet parameters. It's also locked, so it won't update while the model is being trained.
--To generate softmax signals, a global average pooling and dense layer classifier is used. To determine the anticipated class, softmax signals are used.
+- The input layer is set up to accept coloured images with a size of 160x160 pixels. The final form will be (160,160,3).
+- The deep learning model for this project is built via transfer learning. To begin, a preprocessing layer is established, which modifies the pixel values of incoming images to a range of -1 to 1. This layer acts as a feature scaler and is necessary for the transfer learning model to produce the correct signals.
+- A MobileNet v2 pretrained model is employed for the feature extractor. The model is included in the TensorFlow Keras package and is pre-trained with ImageNet parameters. It's also locked, so it won't update while the model is being trained.
+- To generate softmax signals, a global average pooling and dense layer classifier is used. To determine the anticipated class, softmax signals are used.
 
 The model is depicted in simplified form in the diagram below.
 
