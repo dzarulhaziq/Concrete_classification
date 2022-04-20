@@ -42,11 +42,20 @@ With a batch size of 16 and 10 epochs, the model is trained. The model achieves 
 
 # 4. Results
 
-The test data is used to evaluate the model. The loss and accuracy are depicted in the figure below.
+The test data is used to evaluate the model. The loss and accuracy are depicted below.
 ```bash
 ------------------------Test Result----------------------------
 Loss = 0.0023269308730959892
 Accuracy = 0.9991666674613953
 ```
+### Results on some prediction 
+![image](https://user-images.githubusercontent.com/103733709/164215221-db5acdd1-7a74-45a0-a7fc-ce815278d4a2.png)
+
+
+
+
+
+
+
 
 
