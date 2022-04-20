@@ -34,5 +34,8 @@ The image data is loaded, along with the labels associated. The data is first di
 
 The model is depicted in simplified form in the diagram below.
 
+![image](https://user-images.githubusercontent.com/103733709/164209435-e14be77d-b607-4250-89e7-32494bf2598a.png)
+
+
 
 
