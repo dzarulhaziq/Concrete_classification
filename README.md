@@ -9,7 +9,12 @@
 ## 2.IDE and Framework
 - The project is completed with Spyder as the main IDE. 
 - The main frameworks used in this project are :
--- Numpy
--- Matplotlib
--- Tensorflow Keras.
+```bash
+import numpy as np
+import tensorflow as tf
+import pathlib
+import matplotlib.pyplot as plt
+import datetime
+import os
+```
 
