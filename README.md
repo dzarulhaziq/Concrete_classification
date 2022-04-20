@@ -36,9 +36,17 @@ The model is depicted in simplified form in the diagram below.
 
 ![image](https://user-images.githubusercontent.com/103733709/164210231-4b09d72e-68d0-490f-932d-8192e539c317.png)
 
+With a batch size of 16 and 10 epochs, the model is trained. The model achieves 99 percent training accuracy and 95 percent validation accuracy after training. The training outcomes are depicted in the figures below.
 
+![image](https://user-images.githubusercontent.com/103733709/164214258-2b9d62e7-e6b0-4248-8001-68837b971262.png)
 
+# 4. Results
 
-
+The test data is used to evaluate the model. The loss and accuracy are depicted in the figure below.
+```bash
+------------------------Test Result----------------------------
+Loss = 0.0023269308730959892
+Accuracy = 0.9991666674613953
+```
 
 
